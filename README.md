@@ -2,7 +2,7 @@
 
 Building a machine learning model is great, but to provide real business value, it must be made useful and maintained to remain useful over time. Machine Learning Operations (MLOps), overviewed here, is a rapidly growing space that encompasses everything required to deploy a machine learning model into production, and is a crucial aspect to delivering this sought after value.
 
-Machine Learning Operations (MLOps) is everything else required to make that model useful, including capabilities for an automated development and deployment pipeline, monitoring, lifecycle management, and governance, etc. It is a set of practices that combines Machine Learning, DevOps and Data Engineering, which aims to deploy and maintain ML systems in production reliably and efficiently. [This Article](https://www.kdnuggets.com/2021/03/overview-mlops.html) explains the use of Automation pipelines, MlOps landscape, Governance in detail.
+Machine Learning Operations (MLOps) is everything else required to make that model useful, including capabilities for an automated development and deployment pipeline, monitoring, lifecycle management, and governance, etc. It is a set of practices that combines Machine Learning, DevOps and Data Engineering, which aims to deploy and maintain ML systems in production reliably and efficiently. [This Article](https://www.kdnuggets.com/2021/03/overview-mlops.html) explain the use of Automation pipelines, MlOps landscape, Governance in detail.
 
 ![mlops lifecycle](https://www.kdnuggets.com/wp-content/uploads/fig1-overview-mlops.jpg)
 
@@ -27,7 +27,8 @@ Managing ML systems at scale is not an easy job, and there exist numerous bottle
   <li>Deploying models to the production system</li>
   <li>Monitor, Optimize and maintain models</li>
 </ul>
-[Learn More about the skills required to perform mlops](https://www.freecodecamp.org/news/what-is-mlops-machine-learning-operations-explained/)
+
+Learn More about the skills required to perform mlops [here](https://www.freecodecamp.org/news/what-is-mlops-machine-learning-operations-explained/)
 
 
 ## Key Topics in MLOps
@@ -62,3 +63,21 @@ The level of automation of the Data, ML Model, and Code pipelines determines the
 
 <h2>Further Recommended Reading</h2>
 Andriy Burkov’s book on [Machine Learning Engineering](http://www.mlebook.com/wiki/)
+
+## Hands on Guide
+1. [Deploying Flask app with on AWS Elastic Beanstalk using Docker](https://cloudxlab.com/assessment/playlist-intro/725/deploying-flask-app-with-on-aws-elastic-beanstalk?utm_source=newsletter&utm_medium=email&utm_campaign=devopsproject-announcement)
+  In this tutorial, you will learn how to build a Deploy Multi-Container Application using Flask, Redis and PosgreSQL.
+
+  you will use NGINX-uWSGI along with Flask as the web service, and connect it with the PostgreSQL and Redis container services. Then, you will understand how to automate the  process of deploying the web-app on to Docker Hub, using GitHub and Travis CI. Finally, you will understand how to automate deployments on to AWS Elastic Beanstalk using GitHub and Travis.
+
+2. [Deploying Flask app on AWS using RDS and ElastiCache:](https://cloudxlab.com/assessment/displayslide/6300/accessing-db-and-redis-using-environment-variables-in-docker-compose?playlist_id=727)
+In this project, you will learn how to use Amazon RDS and Amazon ElastiCache, how to connect them to AWS Elastic Beanstalk, and deploy a project based on these three technologies.
+
+3. [Stopping and starting an instance on GCP](https://cloud.google.com/compute/docs/instances/stop-start-instance)
+
+
+5. [AWS Machine Learning SPecialty Course](https://aws.amazon.com/training/learn-about/machine-learning/) Learn how to apply machine learning (ML), artificial intelligence (AI), and deep learning (DL) to your business, unlocking new insights and value. Explore real-world examples and labs based on problems we've solved at Amazon using ML. Access 65+ digital courses (many of them free).
+
+
+6. [Machine Learning Engineer Professional Certificate](https://cloud.google.com/certification/machine-learning-engineer) A Professional Machine Learning Engineer designs, builds, and productionizes ML models to solve business challenges using Google Cloud technologies and knowledge of proven ML models and techniques. The ML Engineer is proficient in all aspects of model architecture, data pipeline interaction, and metrics interpretation and needs familiarity with application development, infrastructure management, data engineering, and security.
+
