@@ -6,6 +6,30 @@ Machine Learning Operations (MLOps) is everything else required to make that mod
 
 ![mlops lifecycle](https://www.kdnuggets.com/wp-content/uploads/fig1-overview-mlops.jpg)
 
+<h3>What Problems Does MLOps Solve?</h3>
+
+Managing ML systems at scale is not an easy job, and there exist numerous bottlenecks that needs to be taken care of. The following are the major challenges that teams are up against:
+
+<ul>
+  <li> Shortage of Data Scientists </li>
+  <li> Communication gaps between technical and business teams with hard-to-find common language to collaborate </li>
+  <li> Risk Assessment </li>
+</ul>
+
+<h3>What Skills Do you need for MLOps?</h3>
+
+<ul>
+  <li>Framing ML problems from business objectives</li>
+  <li>Architext ML and data solutions for the problem</li>
+  <li>Data preparation and processing</li>
+  <li>Model training and experimentation</li>
+  <li>Building and automating ML pipelines</li>
+  <li>Deploying models to the production system</li>
+  <li>Monitor, Optimize and maintain models</li>
+</ul>
+[Learn More about the skills required to perform mlops](https://www.freecodecamp.org/news/what-is-mlops-machine-learning-operations-explained/)
+
+
 ## Key Topics in MLOps
 The following Key topics is discussed in details [here](https://ml-ops.org/content/mlops-principles)
 1. Automation
@@ -24,15 +48,17 @@ The level of automation of the Data, ML Model, and Code pipelines determines the
 
    Continuous Integration (CI) extends the testing and validating code and components by adding testing and validating data and models.
 
-   Continuous Delivery (CD) concerns with delivery of an ML training pipeline that automatically deploys another the ML model prediction service.
+   Continuous Delivery (CD) concerns with delivery of an ML training pipeline that automatically deploys ML model prediction service.
 
    Continuous Training (CT) is unique to ML systems property, which automatically retrains ML models for re-deployment.
 
    Continuous Monitoring (CM) concerns with monitoring production data and model performance metrics, which are bound to business metrics.
 
-3. Versioning: The goal of the versioning is to treat ML training scripts, ML models and data sets for model training as first-class citizens in DevOps processes by tracking ML models and data sets with version control systems. There are many reasons why ML models and data changes, the list can be found [here](https://ml-ops.org/content/mlops-principles)
-4. Experiments Tracking: Experiment tracking is the process of saving all experiment related information that you care about for every experiment you run.
-5. Testing: The process of checking each stage of mlops to verufy if it gives the required results. It involves data and feature test, unit test etc
+3. Versioning: The goal of the versioning is to treat ML training scripts, ML models and data sets for model training as first-class citizens in DevOps processes by tracking ML models and data sets with version control systems. There are many reasons why ML models and data changes, the list can be found [here](https://ml-ops.org/content/mlops-principles#versioning)
+4. Experiments Tracking: Experiment tracking is the process of saving all experiment related information that you care about for every experiment you run. [Learn More here](https://neptune.ai/blog/ml-experiment-tracking)
+5. Testing: The process of checking each stage of mlops to verify if it gives the required results. It involves data and feature test, model test, unit test etc
 6. Monitoring: Once the ML model has been deployed, it need to be monitored to assure that the ML model performs as expected. 
 7. Reproducibility in a machine learning workflow means that every phase of either data processing, ML model training, and ML model deployment should produce identical results given the same input.
 
+<h2>Further Recommended Reading</h2>
+Andriy Burkov’s book on [Machine Learning Engineering](http://www.mlebook.com/wiki/)
