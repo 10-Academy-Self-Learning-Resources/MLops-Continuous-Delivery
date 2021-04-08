@@ -80,4 +80,5 @@ In this project, you will learn how to use Amazon RDS and Amazon ElastiCache, ho
 
 
 6. [Machine Learning Engineer Professional Certificate](https://cloud.google.com/certification/machine-learning-engineer) A Professional Machine Learning Engineer designs, builds, and productionizes ML models to solve business challenges using Google Cloud technologies and knowledge of proven ML models and techniques. The ML Engineer is proficient in all aspects of model architecture, data pipeline interaction, and metrics interpretation and needs familiarity with application development, infrastructure management, data engineering, and security.
+7. A collection of resources on how to facilitate Machine Learning Ops with GitHub. Learn how to use GitHub for automation, collaboration and reproducibility in your machine learning workflows.[Everything MLOps with github](https://mlops.githubapp.com/)
 
